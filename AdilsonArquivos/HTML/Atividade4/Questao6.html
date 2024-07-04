@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Contato</title>
+    </head>
+    <body>
+        <header>
+            <h3>Formulário de contato:</h3>
+        </header>
+        <main>
+            <form method="post">
+                <label for="usuario">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <br>
+
+                <label for="email">Endereço de email:</label>
+                <input type="text" id="email" name="email" required>               
+                
+
+                <br>
+
+                <label for="assunto">Qual o assunto?</label>
+                <select id="assunto" name="tipo">
+                    <option value="cobranca">Cobrança</option>
+                    <option value="internet">Internet fraca</option>
+                    <option value="cancelamento">Cancelamento</option>
+                    
+                </select>
+                <br>
+            
+                <label for="mensagem">Digite a mensagem: </label>
+                <textarea id="mensagem" name= "mensagem" rows= "5" cols="50"></textarea>
+                <button type="submit" >Enviar</button>
+                <input type="reset" value = "limpar">
+
+            </form>
+        </main>
+    </body>
+</html>
