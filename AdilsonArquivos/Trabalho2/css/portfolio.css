@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+
+    font-family:Helvetica, sans-serif;
+    
+    font-size: large;
+}
+
+header{
+    background-color: #ca0606;
+    padding: 10px;
+    padding-bottom: 5em;
+    border-bottom: 3px solid #ff9100;
+
+    nav {
+        float: right;
+    
+        margin-top: 2em;
+        margin-right: 1em;
+    }
+
+    nav ul li {
+        display: inline;
+        list-style: none;
+        margin-left: 2em;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        
+    }
+
+    .logo {
+        max-width: 200px;
+        width: 20%;
+        float:left;
+        
+    }
+
+    a {
+        color:#ff9100;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #ff0000;
+    }
+}
+
+
+
+.colunas {
+    display: flex;
+    background: #eee;
+    border: 5px solid #ccc;
+    margin-right: 180px;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .colunaSecundaria {
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: 5px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  
+  .colunaPrincipal {
+    flex: 2;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .portfolio {
+    background: #ff9100;
+    border: 5px solid #ca0606;
+    color: white;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 1px 2px 8px black;
+    
+    
+  }
+
+  #meuBotao {
+    display: none;
+  }
+
+  label{
+    cursor: pointer;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  label:hover{
+    color:#ca0606;
+  }
+  
+  #meuBotao:checked + label ~ p {
+    display: block;
+  }
+
+  #meuBotao1 {
+    display: none;
+  }
+  #meuBotao1:checked + label ~ p {
+    display: block;
+  }
+
+  #meuBotao2 {
+    display: none;
+  }
+  #meuBotao2:checked + label ~ p {
+    display: block;
+  }
+
+  #meuBotao3 {
+    display: none;
+  }
+  #meuBotao3:checked + label ~ p {
+    display: block;
+  }
+
+  #meuBotao4 {
+    display: none;
+  }
+  #meuBotao4:checked + label ~ p {
+    display: block;
+  }
+
+  .imagemReconhecimento{
+    border: 2px solid #ca0606;
+    border-radius: 1px;
+  }
+
+  .imagemWeb{
+    border: 2px solid #ca0606;
+    border-radius: 1px;
+  }
+
+  .imagemKael{
+    border: 2px solid #ca0606;
+    border-radius: 1px;
+    max-width: 600px;
+  }
+
+ 
+
+  .imagemFicha{
+    border: 2px solid #ca0606;
+    border-radius: 1px;
+    max-width: 500px
+  }
+
+ 
+
+  .imagemC{
+    border: 2px solid #ca0606;
+    border-radius: 1px;
+    max-width: 500px
+  }
+
+
+  footer{
+    background-color: #ca0606;
+    
+    border-top: 3px solid #ff9100;
+    
+
+    
+
+    .social{
+        padding-top: 20px;
+        padding-left: 10px;  
+        transition: transform 0.5s ease;   
+        display: flex; 
+    }
+
+    #direitos{
+        
+        font-size: small;
+        text-align: right;
+        padding-right: 5px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        flex: 3;
+        cursor: default;
+        float: bot;
+    }
+
+    #git{
+        transition: transform 0.5s ease; 
+        padding-right: 10px;    
+        padding-top: 20px;
+        cursor: pointer; 
+    }
+
+    #git:hover{
+        transform: scale(1.2);
+    }
+    #insta{
+        transition: transform 0.5s ease;
+        cursor: pointer; 
+        padding-top: 20px;
+    }
+    
+    #insta:hover{
+        transform: scale(1.2);
+    }
+}
+
+
+
+
+

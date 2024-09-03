@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    
+    padding: 0px;
+
+    text-align: center;
+
+    background-color: rgb(104, 132, 255);
+
+    font-family: Helvetica;
+}
+
+div {
+    border: 1px solid rgb(0, 0, 0);
+
+    border-radius: 5px;
+
+    background-color: hsl(221, 100%, 79%);
+
+    
+    
+}
+
+.post-item {
+    margin: 30px;
+}
+
+h2 {
+   color: rgb(25, 0, 255);
+   background-color: rgb(255, 255, 255);
+}
+
+
+
+p {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: rgb(25, 0, 255);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(43, 226, 58);
+}

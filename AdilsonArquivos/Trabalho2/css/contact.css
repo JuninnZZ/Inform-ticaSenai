@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+
+    font-family:Helvetica, sans-serif;
+    
+    font-size: large;
+}
+
+header{
+    background-color: #ca0606;
+    padding: 10px;
+    padding-bottom: 5em;
+    border-bottom: 3px solid #ff9100;
+
+    nav {
+        float: right;
+    
+        margin-top: 2em;
+        margin-right: 1em;
+    }
+
+    nav ul li {
+        display: inline;
+        list-style: none;
+        margin-left: 2em;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+    .logo {
+        max-width: 200px;
+        width: 20%;
+        float:left;
+        
+    }
+
+    a {
+        color:#ff9100;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #ff0000;
+    }
+}
+
+main{
+    background: #eee;
+}
+
+.contato {
+    padding: 2em;
+    background: #eee;
+    text-align: center;
+}
+
+h1{
+    font-size: 20px;
+    color:#ff9100
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 500px;
+    margin: auto;
+
+}
+
+form label {
+    font-weight: bold;
+    color: #ff9100;
+
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+form button {
+    background-color: rgb(255, 123, 0);
+    color: #fff;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+form button:hover {
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.02);
+}
+
+
+#name{
+    background-image: url(../imagens/usuario.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.5em;
+}
+
+
+#email{
+    background-image: url(../imagens/email.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.5em;
+}
+
+.meucontato{
+    padding: 1em;
+    text-align: center;
+    display:grid;
+    color:#ca0606;
+    
+    p{
+        padding:5px;
+        padding-top: 10px;
+    }
+
+    a{
+        padding:5px;
+        text-decoration: none;
+        color:#ca0606;
+    }
+    a:hover{
+        color:#ff9100;
+    }
+}
+
+
+footer{
+    background-color: #ca0606;
+    border-top: 3px solid #ff9100;
+     
+    #direitos{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: small;
+        text-align: right;
+    }
+
+}
+
+

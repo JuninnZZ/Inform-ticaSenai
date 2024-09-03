@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+
+    text-align: center;
+
+    background-color: rgb(178, 227, 255);
+
+    font-family: Helvetica;
+}
+
+
+h1 {
+    
+   color: blue;
+}
+
+p {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: blue;
+}

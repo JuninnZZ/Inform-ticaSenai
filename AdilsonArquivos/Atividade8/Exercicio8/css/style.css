@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    
+    padding: 0px;
+
+    text-align: start;
+
+    background-color: rgb(255, 248, 154);
+
+    font-family: Helvetica;
+}
+
+header{
+    h1{
+    background-color: rgb(255, 174, 0);
+    }
+}
+
+main{
+    
+    margin-right: 1155px;
+}
+
+div{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+
+    display: inline-block;
+
+    background-color: white;
+   
+}
+
+
+h2 {
+   color: rgb(255, 174, 0);
+   background-color: white;
+  
+}
+
+
+
+.Tipos {
+    border-top: 1px solid black;
+
+    
+    
+}
+
